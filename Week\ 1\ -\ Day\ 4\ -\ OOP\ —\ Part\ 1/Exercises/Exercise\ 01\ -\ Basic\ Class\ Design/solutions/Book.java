@@ -7,27 +7,27 @@
  * - Using object members via dot notation
  */
 public class Book {
-    
+
     // Fields - state of each book object
     String title;
     String author;
     int pages;
-    
+
     // Method to display book information
     void displayInfo() {
         System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
     }
-    
+
     // Method to check if book is considered "long"
     boolean isLongBook() {
         return pages > 300;
     }
-    
+
     // Method to get a description string
     String getDescription() {
         return title + " by " + author;
     }
-    
+
     // Main method to test the Book class
     public static void main(String[] args) {
         // Create Book 1
@@ -39,9 +39,9 @@ public class Book {
         book1.displayInfo();
         System.out.println("Is long book? " + book1.isLongBook());
         System.out.println("Description: " + book1.getDescription());
-        
+
         System.out.println();
-        
+
         // Create Book 2
         System.out.println("--- Book 2 ---");
         Book book2 = new Book();
@@ -51,9 +51,9 @@ public class Book {
         book2.displayInfo();
         System.out.println("Is long book? " + book2.isLongBook());
         System.out.println("Description: " + book2.getDescription());
-        
+
         System.out.println();
-        
+
         // Create Book 3
         System.out.println("--- Book 3 ---");
         Book book3 = new Book();
