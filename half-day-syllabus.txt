@@ -1,424 +1,133 @@
-# Full-Stack Training Syllabus (Half-Day Sessions)
-
----
-
-## Week 1 — Foundations & Core Java
-
----
-
-### Week 1 - Day 1 (Monday): Foundations — Linux, Git, SDLC & Agile
-
-**Part 1:**
-- Linux OS fundamentals and basic commands
-- Shell scripting fundamentals
-- SDLC stages and Fullstack overview
-
-**Part 2:**
-- Source Control Management with Git (repos, branching, merging, pull requests, commits, version control workflow)
-- Agile & Scrum methodology (sprint planning, story pointing, Jira/project boards, ceremonies)
-
-**Learning Objectives:**
-- Navigate Linux file system and execute basic commands
-- Use Git for version control and collaboration
-- Understand SDLC phases and Agile principles
-- Participate in Agile ceremonies and use Jira for tracking
-- Apply Git branching strategies and resolve merge conflicts
-
----
-
-### Week 1 - Day 2 (Tuesday): Core Java Fundamentals — Part 1
-
-**Part 1:**
-- JVM, JRE, and JDK architecture
-- Java primitives and data types
-- Variables, literals, and constants
-- Type conversion, casting, autoboxing, and unboxing
-
-**Part 2:**
-- Strings and String operations
-- StringBuilder and StringBuffer (mutability, performance in loops)
-- Mathematical, logical, and comparison operators
-- Comments and code documentation
-
-**Learning Objectives:**
-- Explain the relationship between JVM, JRE, and JDK
-- Declare and initialize variables with appropriate data types
-- Perform type conversions and casting operations
-- Work with String manipulation methods
-
----
-
-### Week 1 - Day 3 (Wednesday): Core Java Fundamentals — Part 2
-
-**Part 1:**
-- Control flow statements (if-else, switch)
-- Loops (for, while, do-while, enhanced for)
-- Break and continue statements
-
-**Part 2:**
-- Arrays (declaration, initialization, iteration)
-- Multi-dimensional arrays
-- Common programming patterns
-
-**Learning Objectives:**
-- Implement control flow logic using conditional statements
-- Use loops effectively for iteration
-- Create and manipulate arrays
-- Apply control flow to solve programming problems
-
----
-
-### Week 1 - Day 4 (Thursday): OOP — Part 1
-
-**Part 1:**
-- Classes and objects
-- Constructors (default, parameterized, constructor chaining)
-- Class members (fields and methods)
-
-**Part 2:**
-- Access modifiers (public, private, protected, default)
-- Non-access modifiers (static, final, abstract)
-- Static vs non-static members
-- The 'this' keyword
-
-**Learning Objectives:**
-- Design and implement classes with proper encapsulation
-- Create objects and invoke methods
-- Apply access modifiers appropriately
-- Differentiate between static and instance members
-
----
-
-### Week 1 - Day 5 (Friday): OOP — Part 2
-
-**Part 1:**
-- Inheritance (extends keyword, super keyword)
-- Method overriding vs overloading
-- Polymorphism (compile-time and runtime)
-
-**Part 2:**
-- Abstraction (abstract classes and interfaces)
-- Encapsulation best practices
-- Packages and imports
-
-**Learning Objectives:**
-- Implement inheritance hierarchies
-- Apply polymorphism through interfaces and abstract classes
-- Override and overload methods appropriately
-- Organize code using packages
-
----
-
-
----
-
-## Week 2 — Advanced Java
-
----
-
-### Week 2 - Day 6 (Monday): Collections & Generics
-**Part 1:**
-- Java Collections Framework overview
-- List, Set, Map, Queue interfaces and implementations
-- ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, LinkedHashMap
-- Iterators and enhanced for loop
-
-**Part 2:**
-- Generics syntax and use cases
-- Bounded types and wildcards
-- Comparable vs Comparator
-- Collections utility methods (sort, reverse, shuffle, etc.)
-
-**Learning Objectives:**
-- Use core collection types and choose appropriate implementations
-- Iterate and manipulate collections
-- Apply generics for type safety
-- Implement sorting and comparison logic
-
----
-
-### Week 2 - Day 7 (Tuesday): Exception Handling & I/O
-**Part 1:**
-- Exception hierarchy (checked vs unchecked)
-- try-catch-finally blocks
-- Custom exceptions
-- Throwing and catching exceptions
-
-**Part 2:**
-- File I/O basics (File, FileReader, FileWriter)
-- Buffered streams
-- try-with-resources
-- Reading/writing text files
-
-**Learning Objectives:**
-- Handle exceptions using try-catch-finally
-- Create and use custom exceptions
-- Perform file input/output operations
-- Use try-with-resources for resource management
-
----
-
-### Week 2 - Day 8 (Wednesday): Lambdas, Streams & DateTime
-**Part 1:**
-- Lambda expressions syntax and use cases
-- Functional interfaces (Predicate, Function, Consumer, Supplier)
-- Method references
-- Optional class and avoiding null pointer exceptions
-
-**Part 2:**
-- Stream API basics (creation, intermediate, terminal operations)
-- Common stream operations (filter, map, reduce, collect)
-- Common Java APIs (DateTime API — LocalDate, LocalTime, LocalDateTime, DateTimeFormatter, Period, Duration)
-
-**Learning Objectives:**
-- Write lambda expressions for concise code
-- Use functional interfaces effectively
-- Apply Stream API for data processing
-- Handle nullable values using Optional
-- Work with the Java DateTime API for date and time operations
-
----
-
-### Week 2 - Day 9 (Thursday): Multithreading
-**Part 1:**
-- Thread basics and Thread class
-- Runnable interface
-- Thread lifecycle and states
-- Synchronization and thread safety
-- Deadlock and livelock scenarios
-
-**Part 2:**
-- Producer-consumer problem
-- Concurrent collections
-- ExecutorService and thread pools
-- CompletableFuture basics and advanced usage
-- Core concurrency utilities (CountDownLatch, Semaphore, etc.)
-- ScheduledExecutorService
-- Awareness: ForkJoinPool, Virtual Threads (Project Loom)
-
-**Learning Objectives:**
-- Create and manage threads using Thread class and Runnable
-- Implement synchronization to prevent race conditions
-- Identify and prevent deadlock situations
-- Use thread pools for efficient resource management
-- Compose asynchronous workflows with CompletableFuture including error handling
-- Apply key concurrency utilities to coordinate threads and manage shared state
-
----
-
-### Week 2 - Day 10 (Friday): Advanced Java
-**Part 1:**
-- Big O notation and algorithm complexity
-- Time and space complexity analysis
-- Common design patterns (Singleton, Factory, Builder, Observer, Strategy)
-- Java Memory Model (JMM), Stack vs Heap memory
-
-**Part 2:**
-- Garbage collection concepts and algorithms
-- JVM tuning basics
-- Reference types (strong, weak, soft, phantom)
-- File I/O fundamentals (Readers, Writers, BufferedReader, BufferedWriter, try-with-resources for I/O)
-- Serialization and deserialization
-- Debugging techniques and tools
-
-**Learning Objectives:**
-- Analyze algorithm complexity using Big O
-- Apply common design patterns appropriately
-- Understand memory allocation in Java
-- Explain garbage collection mechanisms
-- Perform basic file input/output operations
-- Debug Java applications effectively
-
----
-
-## Week 3 — Frontend Foundations
-
----
-
-### Week 3 - Day 11 (Monday): HTML & CSS
-**Part 1:**
-- HTML document structure and DOM
-- HTML tags and semantic markup
-- Elements and attributes (inline vs block)
-- Common HTML tags (headings, paragraphs, lists, links, images)
-- HTML tables and forms (input types, labels, buttons, validation)
-
-**Part 2:**
-- CSS fundamentals and syntax
-- CSS selectors (element, class, ID, attribute, pseudo)
-- CSS specificity and cascade
-- CSS Box Model (margin, padding, border, content)
-- CSS positioning (static, relative, absolute, fixed, sticky)
-- Flexbox and Grid layout systems
-- Responsive web design principles, media queries
-- CSS variables, animations, transitions
-- Bootstrap basics and grid system
-
-**Learning Objectives:**
-- Create well-structured HTML documents with semantic markup
-- Build accessible forms with proper validation
-- Apply CSS selectors and understand specificity
-- Implement layouts using Flexbox and Grid
-- Create responsive designs with media queries
-- Use Bootstrap for rapid UI development
-- Apply animations and transitions for better UX
-
----
-
-### Week 3 - Day 12 (Tuesday): JavaScript Fundamentals
-**Part 1:**
-- JavaScript basics and syntax
-- Variables (var, let, const) and scope
-- Data types (primitives and objects)
-- Type coercion and type conversion
-- Arrays and array methods
-- Template literals
-
-**Part 2:**
-- Functions (declarations, expressions, arrow functions)
-- 'this' keyword and context
-- Closures and lexical scope
-- Hoisting
-- Strict mode
-- Truthy and falsy values
-- Control flow statements, loops, error handling basics
-
-**Learning Objectives:**
-- Declare variables with appropriate scope
-- Understand JavaScript data types and type coercion
-- Create and manipulate arrays
-- Write functions using different syntaxes
-- Understand closures and scope chains
-- Work with 'this' keyword in different contexts
-- Handle errors with try/catch
-
----
-
-### Week 3 - Day 13 (Wednesday): DOM Manipulation & Events
-**Part 1:**
-- DOM (Document Object Model) overview
-- Selecting elements (getElementById, querySelector, etc.)
-- DOM manipulation (creating, modifying, removing elements)
-- DOM traversal
-- Modifying styles and classes
-- Working with attributes
-
-**Part 2:**
-- Events and event listeners
-- Event bubbling and capturing
-- Event delegation
-- Event object and properties
-- Preventing default behavior
-- Common event types (click, submit, keydown, input, load)
-- Building interactive page features
-
-**Learning Objectives:**
-- Explain the DOM tree structure and how it relates to HTML
-- Select and target DOM elements using various methods
-- Create, modify, and remove DOM elements dynamically
-- Traverse the DOM to navigate between elements
-- Handle user events with event listeners
-- Understand event bubbling, capturing, and delegation
-- Build interactive web page features using DOM and events
-
----
-
-### Week 3 - Day 14 (Thursday): ES6+, OOP in JS & Async JavaScript
-**Part 1:**
-- Classes and prototypes
-- Prototype chain and inheritance
-- Constructor functions vs class syntax
-- Object-oriented JavaScript patterns
-- Default parameters, spread/rest operators, destructuring
-- Enhanced object literals
-- ES Modules (import/export), module bundling
-- Map and Set data structures
-- Brief overview: Symbol, Iterator, Generators, WeakMap, WeakSet, Proxy, Reflect
-
-**Part 2:**
-- Event loop and call stack
-- Synchronous vs asynchronous code
-- Callbacks and callback hell
-- Promises (creation, chaining, error handling)
-- Promise.all, Promise.race, Promise.allSettled
-- Async/await keywords
-- Error handling with async/await
-- Fetch API, Axios, working with Response objects
-- JSON parsing and stringification
-- Working with external APIs
-
-**Learning Objectives:**
-- Implement object-oriented patterns in JavaScript
-- Use classes and understand prototypal inheritance
-- Apply ES6+ features for cleaner code (spread/rest, destructuring, modules)
-- Work with Map and Set data structures
-- Understand the event loop and asynchronous execution model
-- Implement asynchronous operations using Promises
-- Use async/await for cleaner asynchronous code
-- Make HTTP requests using Fetch API and Axios
-- Work with JSON data from APIs
-- Handle errors in asynchronous code
-
----
-
-### Week 3 - Day 15 (Friday): TypeScript
-**Part 1:**
-- TypeScript basics and benefits
-- Type annotations and inference
-- Simple types (string, number, boolean)
-- Special types (any, unknown, never, void)
-- Object types and interfaces
-- Union types and type aliases
-- Arrays and tuples
-- Enums
-- Type casting and assertions
-- Functions and function types
-
-**Part 2:**
-- Generics basics
-- Classes in TypeScript
-- Decorators overview (syntax, class and method decorators)
-- Compiler and tsconfig.json configuration
-- Utility types (Partial, Required, Readonly, Pick, Omit)
-- Type guards
-- Interface vs Type comparison
-
-**Learning Objectives:**
-- Write type-safe TypeScript code
-- Configure TypeScript compiler
-- Use interfaces and type aliases effectively
-- Apply generics for reusable code
-- Understand when to use Interface vs Type
-
----
-
-## Week 4 — Frontend Frameworks (React / Angular Dual Track)
-
----
-
-### Week 4 - Day 16a (Monday): React Fundamentals
-**Part 1:**
-- React overview and philosophy
-- Single Page Applications (SPA)
-- Virtual DOM concept
-- JSX syntax and rules
-- Component basics (functional vs class components)
-- Creating functional components
-
-**Part 2:**
-- Props and data flow
-- Lists and keys
-- Rendering and conditional rendering
-- Component composition
-
-**Learning Objectives:**
-- Explain React's Virtual DOM and reconciliation
-- Create functional components with JSX
-- Pass and receive props between components
-- Render lists with proper key attributes
-- Implement conditional rendering
-
----
+I am a full-stack software engineering instructor. I need you to create a **code walkthrough** and a **speaking script** for the day described below.
+
+## Your Deliverables
+
+The workspace root is `/Users/scottburman/Documents/DE-Class-Guide/`.
+
+The day's topics are pasted at the bottom of this prompt. The heading will look like:
+`### Week X - Day Y (Weekday): Topic Name`
+
+Use that heading to identify the correct folder. Match it to the list below — the folder names follow the same Week/Day/Topic pattern (just without the weekday in parentheses):
+
+- Week 1 - Day 1 - Foundations — Linux, Git, SDLC & Agile → heading contains "Day 1" and "Linux" / "Git" / "SDLC"
+- Week 1 - Day 2 - Core Java Fundamentals — Part 1 → heading contains "Day 2" and "Core Java" / "Part 1"
+- Week 1 - Day 3 - Core Java Fundamentals — Part 2 → heading contains "Day 3" and "Core Java" / "Part 2"
+- Week 1 - Day 4 - OOP — Part 1 → heading contains "Day 4" and "OOP"
+- Week 1 - Day 5 - OOP — Part 2 → heading contains "Day 5" and "OOP"
+- Week 2 - Day 6 - Collections & Generics
+- Week 2 - Day 7 - Exception Handling & I/
+- Week 2 - Day 8 - Lambdas, Streams & DateTime
+- Week 2 - Day 9 - Multithreading
+- Week 2 - Day 10 - Advanced Java
+- Week 3 - Day 11 - HTML & CSS
+- Week 3 - Day 12 - JavaScript Fundamentals
+- Week 3 - Day 13 - DOM Manipulation & Events
+- Week 3 - Day 14 - ES6+, OOP in JS & Async JavaScript
+- Week 3 - Day 15 - TypeScript
+- Week 4 - Day 16a - React Fundamentals
+- Week 4 - Day 16b - Angular Fundamentals
+- Week 4 - Day 17a - React Hooks
+- Week 4 - Day 17b - Angular Services & DI
+- Week 4 - Day 18a - React Routing & Redux
+- Week 4 - Day 18b - Angular Routing & Forms
+- Week 4 - Day 19a - React API & Testing
+- Week 4 - Day 19b - Angular HTTP & RxJS
+- Week 4 - Day 20a - React Advanced & Deployment
+- Week 4 - Day 20b - Angular Signals & Testing
+- Week 5 - Day 21 - Database Fundamentals & Queries — Part 1
+- Week 5 - Day 22 - SQL Database Design & Advanced Topics
+- Week 5 - Day 23 - REST & API Tools
+- Week 5 - Day 24 - Maven, Gradle & Spring Core
+- Week 5 - Day 25 - Spring Boot
+- Week 6 - Day 26 - Spring MVC & Spring AOP
+- Week 6 - Day 27 - Spring Data JPA
+- Week 6 - Day 28 - Testing
+- Week 6 - Day 29 - Spring Security & OWASP
+- Week 6 - Day 30 - JWT & RBAC
+- Week 7 - Day 31 - GraphQL
+- Week 7 - Day 32 - GraphQL Client
+- Week 7 - Day 33 - AI & Developer Productivity
+- Week 7 - Day 34 - Spring AI
+- Week 7 - Day 35 - MongoDB
+- Week 8 - Day 36 - Docker & Kubernetes
+- Week 8 - Day 37 - CI/
+- Week 8 - Day 38 - Microservices
+- Week 8 - Day 39 - Kafka
+- Week 8 - Day 40 - AWS
+
+**Only build the first day found in the pasted topics.** Ignore any additional days that may appear after it.
+
+## ⚠️ REQUIRED FOLDER STRUCTURE — DO NOT DEVIATE
+
+Every single file you create MUST live inside a folder called `Code-walkthrough`.
+This folder is always a direct subfolder of the matched Week/Day folder.
+**Never place files anywhere else. Never skip this folder.**
+
+```
+[MATCHED FOLDER NAME]/
+└── Code-walkthrough/          ← ALWAYS required, ALWAYS this exact name
+    ├── Part-1/
+    │   ├── 01-topic-name.ext
+    │   ├── 02-topic-name.ext
+    │   └── walkthrough-script-part1.md
+    └── Part-2/
+        ├── 01-topic-subfolder/
+        │   └── files...
+        ├── 02-topic-name.ext
+        └── walkthrough-script-part2.md
+```
+
+Full absolute paths:
+- `/Users/scottburman/Documents/DE-Class-Guide/[MATCHED FOLDER NAME]/Code-walkthrough/Part-1/`
+- `/Users/scottburman/Documents/DE-Class-Guide/[MATCHED FOLDER NAME]/Code-walkthrough/Part-2/`
+
+### `Code-walkthrough/Part-1/`
+- One or more code files (`.java`, `.js`, `.ts`, `.sh`, `.sql`, etc. — whatever language is appropriate for the topic) that **demonstrate every single topic listed under Part 1**
+- A file called `walkthrough-script-part1.md` — a detailed, line-by-line speaking script that tells me **exactly what to say** as I walk through the Part 1 code with the class
+
+### `Code-walkthrough/Part-2/`
+- One or more code files that **demonstrate every single topic listed under Part 2**
+- A file called `walkthrough-script-part2.md` — a detailed, line-by-line speaking script that tells me **exactly what to say** as I walk through the Part 2 code with the class
+
+## Rules for the Code Files
+
+- **Every topic from the day must appear in the code.** Do not skip anything. If a topic is conceptual (e.g. SDLC stages), represent it with comments or a demonstration script.
+- Code must be clean, well-commented, and written so a student seeing it for the first time can follow along
+- Each major topic should be clearly separated with a comment header so I can easily jump to it during the walkthrough
+- If a topic is broad (e.g. "Collections Framework"), break it into clearly labeled sub-sections in the code
+- Use realistic, relatable examples — not just `foo`, `bar`, `x`, `y`
+- After writing the code, **verify your own work**: go through each bullet point in the syllabus below and confirm it appears in the code. If anything is missing, add it before finishing.
+
+**File and folder structure within Part-1/ and Part-2/ is flexible — use your best judgment:**
+- If a part covers one cohesive topic, a single well-organized file is fine
+- If a part covers multiple distinct topics, split them into **separate files named after what they teach** (e.g. `01-linux-commands.sh`, `02-shell-scripting.sh`, `03-sdlc-overview.md`)
+- If a topic is complex enough to need its own subfolder with multiple files (e.g. a full Git workflow demo with multiple scripts), create a **named subfolder — and always prefix it with a number** indicating its order in the walkthrough (e.g. `01-git-workflow/`, `02-spring-core/`)
+- Standalone files that sit alongside subfolders must also be numbered to show their order (e.g. `02-agile-and-scrum.md`)
+- Always name files and folders so it is immediately obvious what topic they cover — never use generic names like `demo.java` or `example.js`
+- The goal is that I can open the folder and immediately see the order and topic of every file/subfolder in the lesson
+
+## Rules for the Speaking Scripts
+
+- The script should read like a **teacher talking to students** — natural, clear, and confident
+- For every block of code, write what I should say BEFORE showing it (introduce the concept), DURING (explain each line), and AFTER (summarize and transition)
+- Include prompts to **ask the class questions** (e.g. "Before I run this — what do you think the output will be?")
+- Include **"watch out" callouts** for common mistakes or confusions students have
+- Include **transition phrases** between topics so the walkthrough flows smoothly
+- The script should be detailed enough that I could read it cold and deliver a great class
+
+## Self-Check Before Finishing
+
+Before you submit, run through this checklist:
+- [ ] Every Part 1 topic is covered in the Part 1 code
+- [ ] Every Part 2 topic is covered in the Part 2 code
+- [ ] Every Learning Objective is addressed somewhere across the two parts
+- [ ] The Part 1 script references every Part 1 code section
+- [ ] The Part 2 script references every Part 2 code section
+- [ ] **All files are inside `[MATCHED FOLDER NAME]/Code-walkthrough/Part-1/` or `Part-2/` — no files placed anywhere else**
+- [ ] Any subfolders created within Part-1/ or Part-2/ are prefixed with a number (e.g. `01-git-workflow/`)
+- [ ] Script files are named `walkthrough-script-part1.md` and `walkthrough-script-part2.md`
+
+## The Day's Topics
 
 ### Week 4 - Day 16b (Monday): Angular Fundamentals
 **Part 1:**
